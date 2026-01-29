@@ -1,17 +1,14 @@
-from math import math
 
 
-class Utente:
-    tessera_id=1
 
+class Utente:   
     
     
-    
-    def __init__(self, nome,):
+    def __init__(self, nome,id, max_libri):
         self.nome= nome
-        self.id = Utente.tessera_id
-        Utente.contatore += 1
-       
+        self.id=id
+        self.max_libri=[0]*3
+
 
         
     def __repr__(self):
@@ -22,8 +19,10 @@ class Utente:
         if not isinstance(self,other):
             return False
         
-        else:
-            return self.nome == other.nome
+        
+        return self.nome == other.nome ,self.id == other.id and self.max_libri == other.max_libri
+        
+        
         
     
 

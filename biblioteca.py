@@ -1,0 +1,21 @@
+class Biblioteca:
+    
+    
+    
+     def __init__(self,utente,libri, ):
+           self.utente=utente
+           self.libri=libri
+           self.
+        
+       
+
+        
+    def __repr__(self):
+       pass
+        
+        
+    def __eq__(self, other):
+       pass
+        
+
+    
