@@ -25,7 +25,7 @@ class Libri:
        
 
      def descrizione (self):
-        print(self.titolo,self.autore)
+        print(self.titolo,self.autore, self.nazionalita, self.isbn)
 
         
 

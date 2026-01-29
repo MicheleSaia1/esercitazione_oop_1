@@ -20,5 +20,12 @@ class Operazioni:
           return self.prestito == other.prestito ,self.restituzione == other.restituzione and self.data== other.data
         
         
-      
-        
+     def prestito(self):
+         pass
+     
+     def restituzione(self):
+         pass   
+     
+
+     def storico_restituzione(self):
+         pass

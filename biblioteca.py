@@ -2,9 +2,9 @@ class Biblioteca:
     
     
     
-     def __init__(self,utente,libri, ):
+     def __init__(self,utente,libri,):
            self.utente=utente
-           self.libri=libri
+           self.libri=[]
            self.disponibilita= True
         
        
@@ -21,7 +21,29 @@ class Biblioteca:
              
              return self.utente == other.utente, self.libri == other.libri, self.disponibilita == other.disponibilita
     
+
+     def aggiunta_nuovi_libri(self,libri):
+        if libri  in self.aggiunta_nuovi_libri:
+            print(" il libro è già registrato")
+            return False
         
+        if # condizione per aggiungere in libri=[] (.append)
+            return True
+
+
+          
+
+     def ricerca_dei_libri(self):
+      pass
+
+     
+     def libri_diponibili(self):
+          pass
+     
+
+     
+          
+      
             
 
     
